@@ -37,11 +37,11 @@ var erfinv = require( 'math-erfinv' );
 Evaluates the [inverse error function][inverse-error-function].
 
 ``` javascript
-var y = erfinv(  );
-// returns 
+var y = erfinv( 0.5 );
+// returns ~0.4769
 
-y = erfinv(  );
-// returns
+y = erfinv( 0.8 );
+// returns ~0.9062
 ```
 
 If provided `NaN`, the `function` returns `NaN`.
