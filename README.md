@@ -50,6 +50,13 @@ y = erfinv( 1 );
 // returns +infinity
 ```
 
+The domain of `x` is restricted to `[-1,1]`. If `|x| > 1`, the `function` will throw a `RangeError`.
+
+``` javascript
+var y = erfinv( -3.14 );
+// throws <Error>
+```
+
 If provided `NaN`, the `function` returns `NaN`.
 
 ``` javascript
@@ -63,11 +70,6 @@ The [inverse error function][inverse-error-function] is an [odd function][odd-fu
 var y = erfinv( -0 );
 // returns -0
 ```
-
-
-## Notes
-
-*	The domain of `x` is restricted to `[-1,1]`. If `|x| > 1`, the `function` will throw a `RangeError`.
 
 
 ## Examples
