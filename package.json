@@ -48,7 +48,9 @@
   "dependencies": {
     "const-ninf-float64": "^1.0.0",
     "const-pinf-float64": "^1.0.0",
-    "math-evalrational": "git+https://github.com/math-io/evalrational.git#develop"
+    "math-evalrational": "git+https://github.com/math-io/evalrational.git#develop",
+    "math-ln": "^1.0.0",
+    "math-sqrt": "^1.0.1"
   },
   "devDependencies": {
     "browserify": "13.x.x",
