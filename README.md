@@ -51,6 +51,13 @@ var y = erfinv( NaN );
 // returns NaN
 ```
 
+The [inverse error function][inverse-error-function] is an [odd function][odd-function]; i.e., `erfinv(-x) = -erfinv(x)`. Thus, in accordance with the [IEEE 754][ieee754] standard, if provided `-0`, the `function` returns `-0`.
+
+``` javascript
+var y = erfinv( -0 );
+// returns -0
+```
+
 
 ## Examples
 
@@ -157,3 +164,5 @@ Copyright &copy; 2016. The [Compute.io][compute-io] Authors.
 [compute-io]: https://github.com/compute-io/
 [inverse-error-function]: https://en.wikipedia.org/wiki/Error_function#Inverse_functions
 [maclaurin-series]: http://mathworld.wolfram.com/MaclaurinSeries.html
+[odd-function]: https://en.wikipedia.org/wiki/Even_and_odd_functions
+[ieee754]: https://en.wikipedia.org/wiki/IEEE_754-1985
