@@ -3,7 +3,7 @@
 var linspace = require( 'compute-linspace' );
 var erfinv = require( './../lib' );
 
-var x = linspace( 0, 2, 100 );
+var x = linspace( -1, 1, 100 );
 var y;
 var i;
 
