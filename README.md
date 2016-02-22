@@ -65,6 +65,11 @@ var y = erfinv( -0 );
 ```
 
 
+## Notes
+
+*	The domain of `x` is restricted to `[-1,1]`. If `|x| > 1`, the `function` will throw a `RangeError`.
+
+
 ## Examples
 
 ``` javascript
