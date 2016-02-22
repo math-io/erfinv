@@ -42,6 +42,12 @@ var y = erfinv( 0.5 );
 
 y = erfinv( 0.8 );
 // returns ~0.9062
+
+y = erfinv( -1 );
+// returns -infinity
+
+y = erfinv( 1 );
+// returns +infinity
 ```
 
 If provided `NaN`, the `function` returns `NaN`.
