@@ -46,8 +46,7 @@
     "url": "https://github.com/math-io/erfinv/issues"
   },
   "dependencies": {
-    "math-evalpoly": "^1.1.0",
-    "math-exp": "^1.0.0"
+    "math-evalpoly": "^1.1.0"
   },
   "devDependencies": {
     "browserify": "13.x.x",
